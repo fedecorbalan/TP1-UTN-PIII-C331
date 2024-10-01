@@ -1,0 +1,171 @@
+/* General */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f8f9fa;
+}
+
+p, label {
+    color: #d1d1d1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #212529;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #adb5bd;
+}
+
+/* Secciones */
+.container {
+    padding: 20px;
+}
+
+/* Sección de bienvenida */
+.text-center {
+    margin-top: 50px;
+}
+
+.lead {
+    color: #f8f9fa;
+}
+
+/* Sección destacada */
+.bg-light {
+    background-color: #343a40 !important;
+    color: #f8f9fa;
+}
+
+.bg-light h2 {
+    color: #f8f9fa;
+}
+
+.bg-light p {
+    color: #d1d1d1;
+}
+gallery {
+    background-color: #1E1C1C;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gallery .container-fluid {
+    padding: 0;
+}
+
+.gallery .row {
+    margin: 0;
+    width: 100%;
+}
+
+.gallery .col-md-3,
+.gallery .col-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: 425px;
+    display: block;
+}
+
+.vinilos-fotos .col-md-3,
+.cd-fotos .col-md-3 {
+    padding: 0;
+    margin: 0;
+}
+
+.vinilos-fotos .col-md-3 a,
+.cd-fotos .col-md-3 a {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    padding: 50px 0;
+}
+
+/* Cards (usadas en formularios) */
+.card {
+    background-color: #212529;
+    color: #ffffff;
+    border: 1px solid #495057;
+}
+
+.card h2 {
+    color: #f8f9fa;
+}
+
+.card .form-label {
+    color: #adb5bd;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Inputs */
+.form-control {
+    background-color: #343a40;
+    color: #ffffff;
+    border: 1px solid #495057;
+}
+
+.form-control:focus {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #007bff;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 15px 0;
+    position: static;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .text-center {
+        margin-top: 30px;
+    }
+}
