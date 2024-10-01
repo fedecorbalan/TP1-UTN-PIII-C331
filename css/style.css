@@ -1,6 +1,6 @@
 /* General */
 body {
-    background-color: #000000;
+    background-color: #1E1C1C;
     color: #ffffff;
     font-family: Arial, sans-serif;
 }
@@ -15,7 +15,7 @@ p, label {
 
 /* Navbar */
 .navbar {
-    background-color: #212529;
+    background-color: #1E1C1C;
 }
 
 .navbar-brand, .navbar-nav .nav-link {
@@ -32,10 +32,6 @@ p, label {
 }
 
 /* Sección de bienvenida */
-.text-center {
-    margin-top: 50px;
-}
-
 .lead {
     color: #f8f9fa;
 }
@@ -53,7 +49,8 @@ p, label {
 .bg-light p {
     color: #d1d1d1;
 }
-gallery {
+
+.gallery {
     background-color: #1E1C1C;
     color: #fff;
     padding: 0px;
