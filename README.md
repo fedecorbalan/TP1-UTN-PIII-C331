@@ -44,8 +44,12 @@ Usando la estructura estandar de un documento html, deberá crear un conjunto de
 Además, agregue la siguiente información a su archivo `README`:
 
 - ¿Hay alguna mejora que pueda hacer en su envío?
+  <br/>
+  Consiero que si, hay cosas como el diseño responsive que siento podria mejorarse, pero por cuestiones de tiempo no se logró, y algunas cosas mas como apartados de diseño, pero involucraría el uso de JS, el cual no es solicitado
+  <br/>
 - ¿Qué haría de manera diferente si se le asignara más tiempo?
   <br/>
+  El diseño responsive como mencione anteriormente y aplicaría elementos correspondientes para que la página sirva como un e-commerce funcional
   <br/>
 
 ## Detalles
@@ -102,3 +106,4 @@ Necesitará construir las siguientes pagínas:
 > Happy coding!
 
 <img src="https://user-images.githubusercontent.com/5693916/30273942-84252588-96fb-11e7-9420-5516b92cb1f7.gif" width="150">
+
